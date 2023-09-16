@@ -1,0 +1,6 @@
+version: '3'
+services:
+  apache:
+    image: edimaron/app-web:2.0
+    ports:
+      - "80:80"
